@@ -1,0 +1,67 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin-top: 3em;
+  font-family: Arial, Helvetica, sans-serif;
+  color: antiquewhite;
+  background-color: rgb(68, 57, 57);
+}
+
+.todo-wrapper {
+  margin: 0 auto;
+  padding: 3em;
+  text-align: center;
+  width: 30em;
+  border: 1px dashed rgba(211, 216, 56, 0.3);
+  border-radius: 2em;
+}
+
+.todo-title {
+  margin-bottom: 0.5em;
+  font-size: 2.5em;
+  font-style: normal;
+  font-weight: 600;
+}
+
+.todo-input {
+  padding: 0.5em;
+  width: 20em;
+  border: 1px solid rgb(68, 57, 57);
+  border-radius: 2em;
+}
+
+button {
+  margin-left: 0.5em;
+  padding: 0.5em;
+  width: 6em;
+  background-color: rgb(211, 216, 56);
+  border: none;
+  border-radius: 2em;
+  cursor: pointer;
+  transition-duration: 0.4s;
+}
+
+button:hover {
+  background-color: rgb(202, 205, 95);
+}
+
+ul {
+  margin: 0.5em 0 0 2em;
+  list-style-type: counter;
+  text-align: left;
+}
+
+li {
+  margin-bottom: 0.5em;
+  font-size: 1.2em;
+  word-wrap: break-word;
+}
+
+.done {
+  text-decoration: line-through;
+  opacity: 0.5;
+}
